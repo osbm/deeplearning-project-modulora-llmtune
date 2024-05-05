@@ -5,3 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "llmtune"
 version = "0.0.1"
+dependencies = [
+    "transformers",
+    "peft",
+    "datasets",
+    "numpy",
+    "torch"
+]
